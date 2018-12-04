@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}} Class</p>
+<H2>Course requirements</H2>
+{{#if condition}}
+    {{#each arr}}
+        <ul>
+            <li>{{this}}</li>   
+        </ul>
+    {{/each}}
+    {{else}}
+        No Assignments.
+{{/if}}
